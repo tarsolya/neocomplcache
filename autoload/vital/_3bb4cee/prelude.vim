@@ -24,7 +24,7 @@ let [
 \   type(function('tr')),
 \   type([]),
 \   type({}),
-\   has('float') ? type(str2float('0')) : -1
+\   type(str2float("3.14159"))
 \]
 " __TYPE_FLOAT = -1 when -float
 " This doesn't match to anything.
